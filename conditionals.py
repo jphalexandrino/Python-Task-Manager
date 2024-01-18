@@ -2,7 +2,7 @@
 
 #Exemple of "if"
 
-age = 18
+age = int(input("How old are you? "))
 print("Exemple of if: ")
 if age >= 18:
     print("You are of legal age ")
