@@ -2,7 +2,7 @@
 
 A simple command-line task manager written in Python.
 
-![Alt Text](Screenshot.png)
+![Alt Text](Screenshot)
 ## Features
 
 - **Add Task**: Add a new task to the list.
