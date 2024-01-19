@@ -6,7 +6,7 @@ def add_task(tasks, name_task):
 def view_tasks(tasks):
     print("\nCurrent tasks:")
     for i, task in enumerate(tasks, 1):
-        print(f"{i}. {task['name']} - {'Completed' if task['status'] else 'Not Completed'}")
+        print(f"{i}. {task['name']} - {'✓ Completed' if task['status'] else '× Not Completed'}")
 
 def update_task(tasks, index):
     # In progress
